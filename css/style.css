@@ -1,0 +1,60 @@
+@import url("reset.css");
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.flex-container {
+  font-size: 30px;
+  margin: 50px 0;
+}
+.flex-blue {
+  background-color: aqua;
+  display: flex;
+}
+.flex-blue > div {
+  width: 400px;
+  height: 400px;
+  outline: 1px solid red;
+}
+.flex-green {
+  background-color: greenyellow;
+  display: flex;
+}
+.green-first > div {
+  width: 800px;
+  height: 200px;
+  outline: 1px solid red;
+}
+.green-second > div {
+  width: 400px;
+  height: 133.33px;
+  outline: 1px solid red;
+}
+.flex-orange {
+  background-color: orange;
+  display: flex;
+}
+.orange-first > div {
+  width: 400px;
+  height: 400px;
+  outline: 1px solid red;
+}
+.orange-second > div {
+  width: 800px;
+  height: 200px;
+  outline: 1px solid red;
+}
+.orange-third {
+  display: flex;
+}
+.orange-third > div {
+  width: 400px;
+  height: auto;
+  outline: 1px solid red;
+}
+.orange-fourth > div {
+  width: 400px;
+  height: 100px;
+  outline: 1px solid red;
+}
